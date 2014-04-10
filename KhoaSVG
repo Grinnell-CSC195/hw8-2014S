@@ -1,0 +1,32 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+Code:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first SVG</h1>
+
+<svg width="500" height="500">
+   <circle cx="250" cy="250" r="100" stroke="green" stroke-width="4" fill="yellow" />
+   Sorry, your browser does not support inline SVG.
+
+<circle cx="200" cy="200" r="20" fill="red" />
+<circle cx="300" cy="200" r="20" fill="red" />
+
+<line x1="250" y1="200" x2="250" y2="250" style="stroke:rgb(255,0,0);stroke-width:2" />
+
+<ellipse cx="250" cy="300" rx="50" ry="20"
+  style="fill:red;stroke:purple;stroke-width:2" />
+
+</svg> 
+
+Citation:
+http://www.w3schools.com/SVG/tryit.asp?filename=trysvg_myfirst
+http://www.w3schools.com/SVG/svg_line.asp
+http://www.w3schools.com/SVG/svg_ellipse.asp
+ 
+</body>
+</html>
