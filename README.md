@@ -8,3 +8,6 @@ http://www.cs.grinnell.edu/~mataires/SVG_fun.html
 
 A sphere, as per usual. (mitchell17)
 http://www.cs.grinnell.edu/~mitchell17/
+
+Animation + SVG
+http://www.cs.grinnell.edu/~boatenga17/svgLarry.html
