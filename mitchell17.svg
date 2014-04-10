@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+
+<svg width="300" height="300" version="1.1"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <radialGradient id="Gradient"
+            cx="0.5" cy="0.5" r="0.5" fx="0.1" fy="0.1">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="black"/>
+      </radialGradient>
+  </defs>
+ 
+  <rect width="300" height="300"
+        fill="url(#Gradient)" stroke="black" stroke-width="2"/>
+	<text x ="220" y= "295" fill='gray' font-family = 'sans-serif' font-size = "10pt">Alex Mitchell</text>
+  
+</svg>
