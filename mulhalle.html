@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8" /> 
+
+<!--
+All the people I ripped code from:
+    using an svg mask over a video: mrbool.com/working-with-scalable-vector-graphics-svg-in-html5-video-element/27811
+    svg heart: https://code.google.com/p/3-dreams-of-black/source/browse/archive/_s/heart.svg?r=6d9719075a1af4b0732223eb1dd857cdb1ba7a7e (Apache License 2.0)
+    rainbow gradient: http://www.a2zwebhelp.com/css3-gradient-backround    
+    I do not own the rights to He-Man and the Masters of the Universe, the 
+    embedded derivative He-Man content, the original Four Non-Blonds song, or
+    the embedded cover of the original song.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TRUE LOVE</title>
+    <style>
+    html {
+        height:100%;
+        background: -webkit-linear-gradient(left, red, orange, yellow, green, 
+          blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, red, orange, yellow, green, 
+          blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, red, orange, yellow, green, 
+          blue, indigo, violet); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, red, orange, yellow, green, 
+          blue, indigo, violet); /* Standard syntax (must be last) */
+    }
+    video {
+	    display:block;
+	    margin: 50px auto;
+    }
+    .target {
+        mask: url("mask.svg#c1");
+        -webkit-mask: url("mask.svg");
+    }
+    </style>
+  </head>
+  <body>
+    <video class="target" height="700" width="auto" src="HEYYEYAAEYAAAEYAEYAA.ogg" type="video/ogg" autoplay loop></video>
+  </body>
+</html>
