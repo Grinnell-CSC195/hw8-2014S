@@ -1,13 +1,16 @@
 SVG is cool. Now the README isn't empty.
 
-here's ezra's link to his svg : 
+here's ezra's link to his svg :  
 http://www.cs.grinnell.edu/~edgerton/svg-thing.html
 
-Here's a boring color animation (Shaun):
+Here's a boring color animation (Shaun):  
 http://www.cs.grinnell.edu/~mataires/SVG_fun.html
 
-A sphere, as per usual. (mitchell17)
+A sphere, as per usual. (mitchell17)  
 http://www.cs.grinnell.edu/~mitchell17/
 
-Animation + SVG
+Animation + SVG  
 http://www.cs.grinnell.edu/~boatenga17/svgLarry.html
+  
+100% increase in He-Man  
+http://www.cs.grinnell.edu/~mulhalle/truelove.html
